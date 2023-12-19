@@ -1,0 +1,56 @@
+/* front.css */
+
+.front {
+  background-color: #f9f9f9; /* Light grey background */
+  padding: 50px;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.front-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.front-title {
+  font-size: 36px;
+  color: #333; /* Dark grey title color */
+  margin-bottom: 20px;
+}
+
+.front-text {
+  font-size: 18px;
+  line-height: 1.6;
+  color: gray; /* Slightly darker text color */
+}
+
+.front-text p {
+  margin-bottom: 15px;
+}
+
+.front-text a {
+  text-decoration: none;
+  color: #ff6347; /* Red color for the link */
+  font-weight: bold;
+}
+
+.front-text a:hover {
+  text-decoration: underline;
+}
+
+/* Your existing CSS file or new CSS */
+
+.signup {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  background-color: #087048e2; /* Red color for the button */
+  color: #fff; /* White text color */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup:hover {
+  background-color: #3ee035; /* Darker red on hover */
+}
